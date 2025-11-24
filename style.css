@@ -1,0 +1,125 @@
+.header {
+            background-image: url('imagens/topo.jpeg'); 
+            background-size: cover; 
+            background-position: center; 
+            height: 300px; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7); 
+            font-size: 3em; 
+        }
+
+    .caixa-geral {
+            background-color: #d6dfe0;
+            width: 100%;              
+            max-width: 1200px;         
+            margin: 0 auto;            
+            padding: 30px 40px;        
+            border-radius: 20px;      
+            box-shadow: 0 0 20px rgba(0,0,0,0.1); 
+        }
+
+    body {
+            background-color: rgb(194, 186, 176);
+            text-align: center;
+        }
+
+    h1,h2,
+        h3 {
+            background-color: rgb(221, 168, 117);
+            color: rgb(48, 18, 18);
+            width: 1190px;
+            margin: 0 auto;
+            text-align: left;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+    p {
+            width: 1150px;
+            margin: 0 auto;
+            text-align: justify;
+            color: rgb(99, 64, 64);
+            font-size: 1em;
+        }
+
+    .lista-links {
+            list-style: none;       
+            padding: 15px;
+            width: 1800px;          
+            margin: 0;  
+               
+        }
+
+    .lista-links li a {
+            text-decoration: none; 
+            color: rgb(182, 105, 47);
+            display: block;
+            text-align: left;    
+            background-color: rgb(190, 197, 197);
+            width: 600px;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 12px;
+            font-size: 1.1em;
+            
+        }
+
+    .lista-links li a:hover {
+            text-decoration: underline;
+            color: rgb(184, 71, 71);
+        }
+
+    img#auxiliar{
+        width: 300px;
+        margin-right: 150px; 
+        }
+
+
+    strong {
+
+            color: rgb(105, 56, 19);
+        }
+
+    i {
+            color: rgb(182, 105, 47);
+        }
+
+    a.meu-link {
+            display: block;        
+            width: 1110px;         
+            margin: 0 auto;        
+            text-align: left;      
+            color: brown;          
+        }
+
+    .container {
+        display: flex;
+        align-items: center;                  
+        gap: 30px;
+        }
+
+    .container img {
+        margin-left: 40px;
+        width: 500px;   
+        border-radius: 10px;
+        }
+
+    .texto {
+        flex: 1;        
+        color: rgb(99, 64, 64);
+        text-align: justify;
+        }
+
+    #lateral {
+        width: 530px;
+        background-color: rgb(190, 197, 197);
+        padding: 20px;
+        border-radius: 10px;
+        color: rgb(182, 105, 47);
+        }
+    #meio{
+        font-size: 1em;
+    }
