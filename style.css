@@ -1,223 +1,125 @@
-/* ----------------------- */
-/* HEADER */
-/* ----------------------- */
-
 .header {
-    background-image: url('imagens/topo.jpeg');
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
-    font-size: 3em;
-}
+            background-image: url('imagens/topo.jpeg'); 
+            background-size: cover; 
+            background-position: center; 
+            height: 300px; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7); 
+            font-size: 3em; 
+        }
 
-/* ----------------------- */
-/* CAIXA GERAL */
-/* ----------------------- */
+    .caixa-geral {
+            background-color: #d6dfe0;
+            width: 100%;              
+            max-width: 1200px;         
+            margin: 0 auto;            
+            padding: 30px 40px;        
+            border-radius: 20px;      
+            box-shadow: 0 0 20px rgba(0,0,0,0.1); 
+        }
 
-.caixa-geral {
-    background-color: #d6dfe0;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 30px 40px;
-    border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.1);
-}
-
-/* ----------------------- */
-/* BODY */
-/* ----------------------- */
-
-body {
-    background-color: rgb(194, 186, 176);
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
-}
-
-/* ----------------------- */
-/* TÍTULOS */
-/* ----------------------- */
-
-h1, h2, h3 {
-    background-color: rgb(221, 168, 117);
-    color: rgb(48, 18, 18);
-    width: 100%;
-    max-width: 1000px;
-    margin: 20px auto;
-    text-align: left;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-/* ----------------------- */
-/* PARÁGRAFOS */
-/* ----------------------- */
-
-p {
-    max-width: 1000px;
-    margin: 10px auto 20px auto;
-    text-align: justify;
-    color: rgb(99, 64, 64);
-    font-size: 1em;
-}
-
-/* ----------------------- */
-/* LISTA DE LINKS */
-/* ----------------------- */
-
-.lista-links {
-    list-style: none;
-    padding: 10px;
-    margin: 0;
-    width: 100%;
-}
-
-.lista-links li a {
-    text-decoration: none;
-    color: rgb(182, 105, 47);
-    display: block;
-    text-align: left;
-    background-color: rgb(190, 197, 197);
-    width: 100%;
-    max-width: 600px;
-    padding: 12px;
-    border-radius: 10px;
-    margin: 10px auto;
-    font-size: 1.1em;
-}
-
-.lista-links li a:hover {
-    text-decoration: underline;
-    color: rgb(184, 71, 71);
-}
-
-/* Ícone auxiliar */
-img#auxiliar {
-    width: 250px;
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-/* ----------------------- */
-/* ELEMENTOS DE TEXTO */
-/* ----------------------- */
-
-strong {
-    color: rgb(105, 56, 19);
-}
-
-i {
-    color: rgb(182, 105, 47);
-}
-
-/* ----------------------- */
-/* LINK FINAL */
-/* ----------------------- */
-
-a.meu-link {
-    display: block;
-    width: 100%;
-    max-width: 1000px;
-    margin: 20px auto;
-    text-align: left;
-    color: brown;
-    font-weight: bold;
-}
-
-/* ----------------------- */
-/* CONTAINERS COM IMAGEM */
-/* ----------------------- */
-
-.container {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    flex-wrap: wrap; /* <- muito importante para o responsivo */
-    margin: 20px auto;
-    justify-content: center;
-}
-
-.container img {
-    width: 100%;
-    max-width: 400px;
-    border-radius: 10px;
-}
-
-.texto {
-    flex: 1;
-    max-width: 600px;
-    color: rgb(99, 64, 64);
-    text-align: justify;
-}
-
-/* Caixa do texto lateral */
-#lateral {
-    width: 100%;
-    background-color: rgb(190, 197, 197);
-    padding: 20px;
-    border-radius: 10px;
-    color: rgb(182, 105, 47);
-}
-
-/* ----------------------- */
-/* PARÁGRAFO ESPECÍFICO */
-/* ----------------------- */
-
-#meio {
-    font-size: 1em;
-}
-
-/* ----------------------- */
-/* RESPONSIVIDADE */
-/* ----------------------- */
-
-@media (max-width: 900px) {
-    .header {
-        height: 220px;
-        font-size: 2.2em;
-    }
-
-    .container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    h1, h2, h3 {
-        text-align: center;
-    }
-
-    #lateral {
-        text-align: left;
-    }
-}
-
-@media (max-width: 600px) {
     body {
-        padding: 5px;
-    }
+            background-color: rgb(194, 186, 176);
+            text-align: center;
+        }
 
-    .header {
-        height: 180px;
-        font-size: 1.7em;
-        padding: 10px;
-    }
+    h1,h2,
+        h3 {
+            background-color: rgb(221, 168, 117);
+            color: rgb(48, 18, 18);
+            width: 1190px;
+            margin: 0 auto;
+            text-align: left;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+    p {
+            width: 1150px;
+            margin: 0 auto;
+            text-align: justify;
+            color: rgb(99, 64, 64);
+            font-size: 1em;
+        }
+
+    .lista-links {
+            list-style: none;       
+            padding: 15px;
+            width: 1800px;          
+            margin: 0;  
+               
+        }
 
     .lista-links li a {
-        font-size: 1em;
-        padding: 10px;
-    }
+            text-decoration: none; 
+            color: rgb(182, 105, 47);
+            display: block;
+            text-align: left;    
+            background-color: rgb(190, 197, 197);
+            width: 600px;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 12px;
+            font-size: 1.1em;
+            
+        }
+
+    .lista-links li a:hover {
+            text-decoration: underline;
+            color: rgb(184, 71, 71);
+        }
+
+    img#auxiliar{
+        width: 300px;
+        margin-right: 150px; 
+        }
+
+
+    strong {
+
+            color: rgb(105, 56, 19);
+        }
+
+    i {
+            color: rgb(182, 105, 47);
+        }
+
+    a.meu-link {
+            display: block;        
+            width: 1110px;         
+            margin: 0 auto;        
+            text-align: left;      
+            color: brown;          
+        }
+
+    .container {
+        display: flex;
+        align-items: center;                  
+        gap: 30px;
+        }
 
     .container img {
-        max-width: 300px;
-    }
+        margin-left: 40px;
+        width: 500px;   
+        border-radius: 10px;
+        }
 
-    #auxiliar {
-        width: 180px;
+    .texto {
+        flex: 1;        
+        color: rgb(99, 64, 64);
+        text-align: justify;
+        }
+
+    #lateral {
+        width: 530px;
+        background-color: rgb(190, 197, 197);
+        padding: 20px;
+        border-radius: 10px;
+        color: rgb(182, 105, 47);
+        }
+    #meio{
+        font-size: 1em;
     }
-}
