@@ -1,5 +1,4 @@
 .header {
-            background-image: url('imagens/topo.jpeg'); 
             background-size: cover; 
             background-position: center; 
             height: 300px; 
@@ -73,7 +72,7 @@
         }
 
     img#auxiliar{
-        width: 300px;
+        width: 320px;
         margin-right: 150px; 
         }
 
@@ -123,3 +122,22 @@
     #meio{
         font-size: 1em;
     }
+
+    button {
+        display: inline-block;
+        background-color: rgb(187, 199, 207);   
+        color: rgb(221, 168, 117);
+        padding: 12px 25px;
+        border: none;
+        border-radius: 10px;
+        font-size: 1.1em;
+        text-decoration: none;
+        cursor: pointer;
+        font-weight: bold;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s;
+        text-align: left;
+        margin: 0 auto;
+    }
+    
+  

@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Fundo geral */
+body {
+    background-color: rgb(194, 186, 176);
+    color: rgb(99, 64, 64);
+    text-align: center;
+}
+
+/* HEADER estilo do topo */
+.header { 
+    background-size: cover; 
+    background-position: center; 
+    height: 300px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7); 
+    font-size: 3em; 
+}
+
+/* GRID dos cards */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+/* CARD no estilo bege/marrom */
+.card {
+    background-color: rgb(214, 223, 224);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: left;
+    color: rgb(99, 64, 64);
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 20px rgba(0,0,0,0.25);
+}
+
+/* Títulos dos cards */
+.card h2 {
+    margin-bottom: 10px;
+    background-color: rgb(221, 168, 117);
+    color: rgb(48, 18, 18);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.4em;
+}
+
+
+button {
+    background-color: rgb(187, 199, 207);   
+    color: rgb(221, 168, 117);     
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1em;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s;
+    display: block;
+    margin: 0 370px;
+}
+
+.tec {
+    display: block;
+    margin-left: 0 100px;
+    width: 600px;
+
+}
+
+.container2 {
+    
+    width: 1770px;
+    margin: 0 360px;
+    padding: 20px 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+/* CARD no estilo bege/marrom */
+.card2 {
+    background-color: rgb(214, 223, 224);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: left;
+    color: rgb(99, 64, 64);
+}
+
+.card2:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 20px rgba(0,0,0,0.25);
+}
+
+a.voltar:hover {
+    color: rgb(48, 18, 18);
+    text-decoration: none;
+}
+
